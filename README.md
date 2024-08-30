@@ -61,4 +61,5 @@ docker-compose run --rm celery-worker
 
 ### Sürüm Bilgileri
 Docker Sürümü: 27.1.1, build 6312585
+
 Docker Compose Sürümü: v2.29.1-desktop.1
