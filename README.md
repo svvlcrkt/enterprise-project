@@ -36,21 +36,21 @@ Docker ve Docker Compose Yükleme: Docker ve Docker Compose'u Docker'ın resmi w
 ```bash
 git clone https://github.com/kullanici_adiniz/enterprise-project.git
 Docker İmajlarını Oluşturma: Proje dizinine gidin ve Docker imajlarını oluşturun:
-
+```
 ```bash
 cd enterprise-project
 docker-compose build
-
+```
 ### Kullanım
 Docker Konteynerlerini Başlatma: Aşağıdaki komutu kullanarak gerekli Docker konteynerlerini başlatın:
 
 ```bash
 docker-compose up
 Celery Görevlerini Çalıştırma: Celery worker konteynerini başlatın:
-
+```
 ```bash
 docker-compose run --rm celery-worker
-
+```
 ### Web API'yi Erişme: FastAPI web uygulamasına tarayıcınızdan http://localhost:8000 adresinden erişebilirsiniz.
 
 ## Görevleri Çalıştırma: scrape_and_process görevini çalıştırmak için Celery görev kuyruğuna gönderebilirsiniz.
